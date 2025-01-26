@@ -1,0 +1,321 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+
+body{
+  background-color: #F5F5F5;
+ }
+ 
+ header{
+  background-image: url(../public/hero-bg.jpg) ;
+  background-size: cover;
+  background-attachment: fixed;
+background-position: center center;
+}
+
+
+header .content h1{
+  font-size: 4rem;
+}
+
+header .content p::after{
+  content: "";
+  font-size: 3rem;
+  animation: typing 10s ease-out infinite;
+  }
+  @keyframes typing {
+    0%{
+      content: "|";
+    }
+    5%{
+      content: "De|";
+    }
+    7%{
+      content: "Des|";
+    }
+    9%{
+      content: "Desi|";
+    }
+    11%{
+      content: "Design|";
+    }
+    13%{
+      content: "Desinger|";
+    }
+    15%{
+      content: "Design|";
+    }
+    16%{
+      content: "Desi|";
+    }
+    17%{
+      content: "De|";
+    }
+    20%{
+      content: "Dev|";
+    }
+    22%{
+      content: "Deve|";
+    }
+    24%{
+      content: "Devel|";
+    }
+    26%{
+      content: "Develo|";
+    }
+    28%{
+      content: "Develop|";
+    }
+    30%{
+      content: "Develope|";
+    }
+    32%{
+      content: "Developer|";
+    }
+    36%{
+      content: "Devel|";
+    }
+    37%{
+      content: "Deve|";
+    }
+    38%{
+      content: "Dev|";
+    }
+    39%{
+      content: "De|";
+    }
+    40%{
+      content: "D|";
+    }
+    41%{
+      content: "|";
+    }
+    45%{
+      content: "F|";
+    }
+    47%{
+      content: "Fr|";
+    }
+    49%{
+      content: "Fre|";
+    }
+    51%{
+      content: "Free|";
+    }
+    53%{
+      content: "Freel|";
+    }
+    55%{
+      content: "Freela|";
+    }
+    57%{
+      content: "Freelan|";
+    }
+    59%{
+      content: "Freelanc|";
+    }
+    61%{
+      content: "Freelance|";
+    }
+    63%{
+      content: "Freelancer|";
+    }
+    67%{
+      content: "Freelance|";
+    }
+    68%{
+      content: "Freelanc|";
+    }
+    69%{
+      content: "Freelan|";
+    }
+    70%{
+      content: "Freela|";
+    }
+    71%{
+      content: "Freel|";
+    }
+    72%{
+      content: "Free|";
+    }
+    73%{
+      content: "Fre|";
+    }
+    74%{
+      content: "Fr|";
+    }
+    75%{
+      content: "F|";
+    }
+    76%{
+      content: "|";
+    }
+    80%{
+      content: "P|";
+    }
+    82%{
+      content: "Ph|";
+    }
+    84%{
+      content: "Pho|";
+    }
+    86%{
+      content: "Photo|";
+    }
+    88%{
+      content: "Photog|";
+    }
+    90%{
+      content: "Photogr|";
+    }
+    92%{
+      content: "Photograph|";
+    }
+    94%{
+      content: "Photographer|";
+    }
+    96%{
+      content: "Photograph|";
+    }
+    97%{
+      content: "Photog|";
+    }
+    98%{
+      content: "Ph|";
+    }
+    99%{
+      content: "P|";
+    }
+    100%{
+      content: "|";
+    }
+  }
+.addres {
+  position: relative;
+}
+.addres::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -10px;
+  }
+  .sec-two .item-two .text p{
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+
+  .line{
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+  }
+
+  .icon-serv{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: #0078ff 0 0 0 10px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    transition: all 0.5s;
+  }
+  .card-serv:hover .icon-serv{
+    background-color: #0078ff;
+    box-shadow:#0077ff4f 0 0 0 10px;
+    color: #fff;
+  }
+
+  .number{
+    background-image: url(../public/counters-bg.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+  }
+  .ico{
+    width: 70px;
+    height: 70px;
+    box-shadow: #c9dff7 0 0 0 10px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+
+  .slides{
+    background-image: url(../public/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+  }
+  .slide{
+    padding: 5rem 0;
+  }
+
+  .ico-blog::after{
+content: "10 min";
+
+  }
+
+  .portfolio img{
+transition: all 1s ease;
+  }
+  .portfolio img:hover{
+    transform: scale(1.3);
+  }
+  .portfolio .card-port .img-port{
+    overflow: hidden;
+  }
+
+  .contact{
+    background-image: url(../public/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+  }
+  .contact .btn span{
+    transition: all 0.3s;
+  }
+  .contact .btn span:hover{
+    background-color: #3989e5 !important; 
+    box-shadow: #b2d3f9 0 0 0 8px;
+   }
+
+   .contact .list ul li {
+    list-style: none;
+    margin: 10px;
+   }
+   .contact .list ul li i{
+    color: #0078ff;
+    margin-right: 10px ;
+   }
+
+   .social a{
+    color: black;
+text-decoration: none;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    box-shadow: #0078ff 0 0 0 4px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-right: 25px;
+    transition: all 0.5s;
+   }
+   .social a:hover{
+    background-color: #0078ff;
+    box-shadow:#0077ff4f 0 0 0 8px;
+    color: #fff;
+   }
+
+   footer{
+    background-color: #0062D3;
+   }
